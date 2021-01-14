@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Oct 16 11:48:50 2020 by Eclipse SUMO netconvert Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="/Users/alandler/Desktop/wu-urop/flow/flow/core/kernel/network/debug/net/highway-ramp-noRL-5_20201016-1148481602870528.913547.nod.xml"/>
+        <edge-files value="/Users/alandler/Desktop/wu-urop/flow/flow/core/kernel/network/debug/net/highway-ramp-noRL-5_20201016-1148481602870528.913547.edg.xml"/>
+        <type-files value="/Users/alandler/Desktop/wu-urop/flow/flow/core/kernel/network/debug/net/highway-ramp-noRL-5_20201016-1148481602870528.913547.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/alandler/Desktop/wu-urop/flow/flow/core/kernel/network/debug/cfg/highway-ramp-noRL-5_20201016-1148481602870528.913547.net.xml"/>
+    </output>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<net version="1.1" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,300.00,0.00" origBoundary="0.00,0.00,300.00,0.00" projParameter="!"/>
+
+    <type id="highway" numLanes="1" speed="10.00"/>
+    <type id="off_ramp" numLanes="1" speed="10.00"/>
+    <type id="on_ramp" numLanes="1" speed="10.00"/>
+
+    <edge id="highway_0" from="highway_0" to="highway_1" priority="-1" type="highway" length="300.00">
+        <lane id="highway_0_0" index="0" speed="10.00" length="300.00" shape="0.00,-1.60 300.00,-1.60"/>
+    </edge>
+
+    <junction id="highway_0" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-3.20" radius="10.00"/>
+    <junction id="highway_1" type="dead_end" x="300.00" y="0.00" incLanes="highway_0_0" intLanes="" shape="300.00,-3.20 300.00,0.00" radius="10.00"/>
+
+</net>

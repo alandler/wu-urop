@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="highway-ramp-noRL-5_20201016-1147511602870471.949791.nod.xml"/>
+    <edge-files value="highway-ramp-noRL-5_20201016-1147511602870471.949791.edg.xml"/>
+    <type-files value="highway-ramp-noRL-5_20201016-1147511602870471.949791.typ.xml"/>
+  </input>
+  <output>
+    <output-file value="highway-ramp-noRL-5_20201016-1147511602870471.949791.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="false"/>
+    <no-turnarounds value="true"/>
+  </processing>
+</configuration>

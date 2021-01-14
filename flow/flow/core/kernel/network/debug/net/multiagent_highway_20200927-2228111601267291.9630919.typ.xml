@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/types_file.xsd">
+  <type id="highway" numLanes="3" speed="30"/>
+  <type id="on_ramp" numLanes="1" speed="20"/>
+  <type id="off_ramp" numLanes="1" speed="20"/>
+</types>

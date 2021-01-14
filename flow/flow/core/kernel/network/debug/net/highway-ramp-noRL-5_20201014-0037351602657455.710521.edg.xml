@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+  <edge id="highway_0" type="highway" from="highway_0" to="highway_1" length="800"/>
+  <edge id="highway_1" type="highway" from="highway_1" to="highway_2" length="400"/>
+  <edge id="highway_2" type="highway" from="highway_2" to="highway_3" length="1300"/>
+  <edge id="on_ramp_0" type="on_ramp" from="on_ramp_0" to="highway_1" length="300"/>
+  <edge id="off_ramp_0" type="off_ramp" from="highway_2" to="off_ramp_0" length="300"/>
+</edges>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="routehighway_0_0" edges="highway_0"/>
+  <flow id="human_highway_inflow_00" route="routehighway_0_0" type="human" departLane="free" departSpeed="max" begin="1" end="86400" vehsPerHour="3400.0"/>
+  <flow id="AV_highway_inflow_10" route="routehighway_0_0" type="rl" departLane="free" departSpeed="max" begin="1" end="86400" vehsPerHour="600.0"/>
+</routes>

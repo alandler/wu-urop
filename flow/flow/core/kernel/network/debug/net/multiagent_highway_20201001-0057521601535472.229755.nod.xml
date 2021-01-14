@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+  <node id="highway_0" x="0" y="0" radius="10"/>
+  <node id="highway_1" x="500" y="0" radius="10"/>
+  <node id="highway_2" x="1000" y="0" radius="10"/>
+  <node id="highway_3" x="1500" y="0" radius="10"/>
+  <node id="on_ramp_0" x="323.22330470336317" y="-176.7766952966369"/>
+  <node id="off_ramp_0" x="1176.776695296637" y="-176.77669529663686"/>
+</nodes>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+  <input>
+    <node-files value="highway_5_experiment_20201005-0041521601880112.547969.nod.xml"/>
+    <edge-files value="highway_5_experiment_20201005-0041521601880112.547969.edg.xml"/>
+    <type-files value="highway_5_experiment_20201005-0041521601880112.547969.typ.xml"/>
+  </input>
+  <output>
+    <output-file value="highway_5_experiment_20201005-0041521601880112.547969.net.xml"/>
+  </output>
+  <processing>
+    <no-internal-links value="false"/>
+    <no-turnarounds value="true"/>
+  </processing>
+</configuration>
